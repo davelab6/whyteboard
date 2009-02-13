@@ -1,5 +1,5 @@
+#summary Proposal for PDF zooming
 #labels Phase-Requirements,Phase-Design
-#Proposal for PDF zooming
 
 = Introduction =
 
