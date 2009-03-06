@@ -1,0 +1,23 @@
+#summary Try and provide a better method for sharing Whyteboard files with PDF references stored
+#labels Phase-Implementation,Featured
+
+= Introduction =
+
+Currently, Whyteboard save files store the absolute file path for a PDF and the PNG files that were created when the PDF was converted. This is good for usage on a single computer, but sharing files becomes an issue, as obviously, the direct path for the same PDF on many different users' computers will vary.
+
+
+= Details =
+
+The solution to this would be for Whyteboard to store a list of known PDF/PS and loaded JPG/GIF/PNG/BMP files it has converted/loaded, and their corresponding PNG's location/filename. This will be a list unique to each users' copy of Whyteboard, and will be stored in the user's /$HOME directory. 
+
+When a Whyteboard file is loaded, any image, PDF or PS references inside that file will be looked up inside the known list of loaded files. If it exists, the files are loaded and a PDF/PS does not need to be converted again. There must be a check here to ensure that the referenced file still exists, as we don't want to load a file that doesn't exist.
+
+If the loaded file is not in the known list of converted files, the user is prompted its location. The above process is repeated for every file referenced in a save file.
+
+
+In the event of attempting to load in a file that has duplicate file-name references inside the list of known files (but are in different directories), the user is prompted to choose the appropriate file from the list of known files, or to select a new one.
+
+
+This will aid with the sharing of Whyteboard data files without having to have any reference to a PDF besides its filename, which removes any copyright or legal issues. It is important not to expose the user's direct path in a save file, for security reasons.
+
+The massive assumption here is that PDFs shared are named in a manner that they can be easily identified, however some organisation's documents, e.g. the ACM follow a naming convention.
