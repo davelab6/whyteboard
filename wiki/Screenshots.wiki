@@ -3,17 +3,18 @@
 
 = Screenshots =
 
+
+==Tabbed editing:==
 http://img407.imageshack.us/img407/9784/screenshot3.png
 
+==PDF annotating:==
 http://img16.imageshack.us/img16/7991/20873254nu0.jpg
+http://img4.imageshack.us/img4/7224/whyteboarddz2ye3.jpg 
 
+==Drawing:==
 http://img242.imageshack.us/img242/1230/whyteboardsi1.jpg
-
-New fill and text:
 http://img19.imageshack.us/img19/5460/16587489.jpg
 
 
-http://img4.imageshack.us/img4/7224/whyteboarddz2ye3.jpg 
-
-Exported PNG from Whyteboard:
+==Exported PNG from Whyteboard:==
 http://img24.imageshack.us/img24/9466/starwarsf.png
