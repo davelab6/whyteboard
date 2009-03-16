@@ -7,4 +7,4 @@ ImageMagick is a collection of image-editing command line applications. Whyteboa
 [http://www.imagemagick.org/script/index.php ImageMagick Homepage]
 
 
-see: [https://answers.launchpad.net/whyteboard/+question/63896 Whyteboard FAQ: Why is converting a PDF so slow?]
+see: [https://answers.launchpad.net/whyteboard/+question/63896 Whyteboard FAQ: Why is opening a PDF so slow?]
