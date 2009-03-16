@@ -1,13 +1,11 @@
 #summary Describes how to use Whyteboard
 #labels Featured,Phase-Support
 
+<wiki:toc />
+
 = Introduction =
 
 This document will serve as a usage manual for Whyteboard.
-
-
-<wiki:toc />
-
 
 = Drawing =
 
