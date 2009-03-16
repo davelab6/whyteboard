@@ -1,4 +1,5 @@
 #summary Describes how to use Whyteboard
+#labels Featured,Phase-Support
 
 <wiki:toc />
 
@@ -9,6 +10,38 @@ This document will serve as a usage manual for Whyteboard.
 
 = Details =
 
-==Drawing==
+== Drawing ==
 
-To draw, first select your 
+To draw, first select your desired tool from the left-hand panel. A description of the tools is as follows:
+
+  * Pen: A free-style pen. "Ink" will appear wherever you drag your mouse while holding down the left button.
+
+  * Rectangle: A transparent rectangle. Clicking the mouse will set the initial starting point for the rectangle; holding the mouse button down and dragging the mouse will resize the rectangle in the direction the mouse is going. So, if you drag the mouse downwards and to the left, you will extend the rectangle in that direction. Dragging it to the top right would make the rectangle smaller until you reach the original location you clicked, and then the rectangle would increase in size to the top right.
+
+  * Line - as above, but with a straight line.
+
+  * Ellipse - A "squashed" rectangle, creating an oval. This behaves exactly as drawing a rectangle.
+
+  * Circle - The initial mouse click sets the position for the centre of the circle, and dragging the mouse out will increase its radius; dragging the mouse in decreases it.
+
+  * Text - Clicking will pop up a text input dialog which you can enter text into, and select your font. Text can be multi-lined and as long as you want; Whyteboard will update its scrollbars's length/height if the text is longer/wider than Whyteboard's current size.
+
+  * Note - Similar to text, yet is displayed with a light yellow background, to mimick a sticky/"post-it" note. More details on notes are below.
+
+  * Rounded Rectangle - As a rectangle, but with rounded edges.
+
+  * Eyedropper - This will set the current drawing colour as the colour underneath the mouse click. Be careful, often you can set your colour to white (the background colour) and get the appearance that you're drawing nothing (since you're drawing white onto white)
+
+ * Fill - Flood fills a region. For example, if nothing was drawn then the entire background would be filled. If a rectangle was drawn, then clicking inside of it would fill only the rectangle. Be careful filling in shapes you've drawn with the pen, as the slightest pixel "border" being missing can cause you to fill in an undesired area. 
+
+== Notes ==
+
+When you type in a note, it appears in the "notes" tab on the right-hand panel. This gives a tree overview of every tab open in Whyteboard, along with any associated notes for that tab. A note in the tree view can be double clicked upon to bring up the text input screen to edit the notes' text. (demonstrated in the screenshot below)
+
+*Before:*
+
+http://img25.imageshack.us/img25/8933/92774620.png
+
+*After editing:*
+
+http://img18.imageshack.us/img18/8565/26042904.png
