@@ -5,3 +5,6 @@
 ImageMagick is a collection of image-editing command line applications. Whyteboard makes use of ImageMagick to convert PDF, PostScript and SVG files into PNGs so that it can load them.
 
 [http://www.imagemagick.org/script/index.php ImageMagick Homepage]
+
+
+see: [https://answers.launchpad.net/whyteboard/+question/63896 Whyteboard FAQ: Why is converting a PDF so slow?]
