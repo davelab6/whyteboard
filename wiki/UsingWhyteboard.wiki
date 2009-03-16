@@ -34,7 +34,7 @@ To draw, first select your desired tool from the left-hand panel. A description 
 
 = Converting PDF, PostScript and SVG files =
 
-When Whyteboard first starts, if your Operating System is Windows, it prompts for the location of the ImageMagick folder. This is usually in the _C:/Program Files/ImageMagick-[version]_ directory; a directory selector dialog will allow you to choose its location.
+When Whyteboard first starts, if your Operating System is Windows, it prompts for the location of the ImageMagick folder. This is usually in the _C:/Program Files/ImageMagick-`[version`]_ directory; a directory selector dialog will allow you to choose its location.
 
 Once found, Whyteboard saves the location so you don't have to specify it all the time. When you load in a PDF, the file is passed off to the convert application in the background, and you must wait until the operation finishes.
 
