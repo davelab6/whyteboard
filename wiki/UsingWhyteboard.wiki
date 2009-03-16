@@ -1,0 +1,14 @@
+#summary Describes how to use Whyteboard
+
+<wiki:toc />
+
+= Introduction =
+
+This document will serve as a usage manual for Whyteboard.
+
+
+= Details =
+
+==Drawing==
+
+To draw, first select your 
