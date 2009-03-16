@@ -1,16 +1,15 @@
 #summary Describes how to use Whyteboard
 #labels Featured,Phase-Support
 
-<wiki:toc />
-
 = Introduction =
 
 This document will serve as a usage manual for Whyteboard.
 
 
-= Details =
+<wiki:toc />
 
-== Drawing ==
+
+= Drawing =
 
 To draw, first select your desired tool from the left-hand panel. A description of the tools is as follows:
 
@@ -34,7 +33,25 @@ To draw, first select your desired tool from the left-hand panel. A description 
 
  * Fill - Flood fills a region. For example, if nothing was drawn then the entire background would be filled. If a rectangle was drawn, then clicking inside of it would fill only the rectangle. Be careful filling in shapes you've drawn with the pen, as the slightest pixel "border" being missing can cause you to fill in an undesired area. 
 
-== Notes ==
+
+= Converting PDF, PostScript and SVG files =
+
+When Whyteboard first starts, if your Operating System is Windows, it prompts for the location of the ImageMagick folder. This is usually in the _C:/Program Files/ImageMagick-[version]_ directory; a directory selector dialog will allow you to choose its location.
+
+Once found, Whyteboard saves the location so you don't have to specify it all the time. When you load in a PDF, the file is passed off to the convert application in the background, and you must wait until the operation finishes.
+
+The trouble here is that there is no way to gauge the progress of the convert, as the applcation doesn't return any information about its progress, nor can the PDF be queried to determine how many pages it has.
+The more pages inside a PDF, the longer it will take to convert and to refresh Whyteboard's thumbnails for every tab.
+
+
+= Saving and loading Whyteboard files =
+
+When you save a Whyteboard file, it doesn't store the actual image data inside the application, but references to the path the images are located at. This is currently a problem in sharing .wtbd files, but an idea for improving this should work much better.
+
+When you load in .wtbd file, it may take a while to load as all the thumbnails need to be refreshed, which can take a few seconds.
+
+
+= Notes =
 
 When you type in a note, it appears in the "notes" tab on the right-hand panel. This gives a tree overview of every tab open in Whyteboard, along with any associated notes for that tab. A note in the tree view can be double clicked upon to bring up the text input screen to edit the notes' text. (demonstrated in the screenshot below)
 
@@ -45,3 +62,18 @@ http://img25.imageshack.us/img25/8933/92774620.png
 *After editing:*
 
 http://img18.imageshack.us/img18/8565/26042904.png
+
+
+= Undo / Redo = 
+
+Every tab has its own undo and redo list. Some operations are currently un-undo-able (clearing a tab's drawings).
+
+
+= Thumbnails =
+
+In the right hand panel, a series of thumbnails are shown for every open tab in Whyteboard. These thumbnails update when a drawing is added to a tab.
+
+
+= History Replaying =
+
+You can go to the menu item History and select "History Viewer", or press Ctrl and H to bring up the history replaying functionality. The dialog will allow you to start, pause or stop a replay of the current tab's drawing. So, starting from the beginning of the drawing, the program will replay what you have drawn until the drawing ends, or the user presses "stop"
