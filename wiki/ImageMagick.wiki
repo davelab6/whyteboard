@@ -2,7 +2,7 @@
 
 = Details=
 
-ImageMagick is a collection of image-editing command line applications. Whyteboard makes use of ImageMagick to convert PDF, PostScript and SVG files into PNGs so that it can load them.
+Image Magick is a collection of image-editing command line applications. Whyteboard makes use of Image Magick to convert PDF, PostScript and SVG files into PNGs so that it can load them.
 
 [http://www.imagemagick.org/script/index.php ImageMagick Homepage]
 
