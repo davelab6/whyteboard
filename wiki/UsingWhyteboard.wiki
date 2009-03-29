@@ -39,7 +39,7 @@ When Whyteboard first starts, if your Operating System is Windows, it prompts fo
 Once found, Whyteboard saves the location so you don't have to specify it all the time. When you load in a PDF, the file is passed off to the convert application in the background, and you must wait until the operation finishes.
 
 The trouble here is that there is no way to gauge the progress of the convert, as the applcation doesn't return any information about its progress, nor can the PDF be queried to determine how many pages it has.
-The more pages inside a PDF, the longer it will take to convert and to refresh Whyteboard's thumbnails for every tab.
+The more pages inside a PDF, the longer it will take to convert and to refresh Whyteboard's thumbnails for every sheet.
 
 
 = Saving and loading Whyteboard files =
@@ -51,27 +51,28 @@ When you load in .wtbd file, it may take a while to load as all the thumbnails n
 
 = Notes =
 
-When you type in a note, it appears in the "notes" tab on the right-hand panel. This gives a tree overview of every tab open in Whyteboard, along with any associated notes for that tab. A note in the tree view can be double clicked upon to bring up the text input screen to edit the notes' text. (demonstrated in the screenshot below)
+When you type in a note, it appears in the "notes" tab on the right-hand panel. This gives a tree overview of every sheet open in Whyteboard, along with any associated notes for that sheet. A note in the tree view can be double clicked upon to bring up the text input screen to edit the notes' text. (demonstrated in the screenshot below)
 
 *Before:*
 
-http://img25.imageshack.us/img25/8933/92774620.png
+http://img23.imageshack.us/img23/9635/notesh.png
+
 
 *After editing:*
 
-http://img18.imageshack.us/img18/8565/26042904.png
+http://img18.imageshack.us/img18/8665/notes2.png
 
 
 = Undo / Redo = 
 
-Every tab has its own undo and redo list. Some operations are currently un-undo-able (clearing a tab's drawings).
+Every sheet has its own undo and redo list. You currently cannot undo closing a sheet
 
 
 = Thumbnails =
 
-In the right hand panel, a series of thumbnails are shown for every open tab in Whyteboard. These thumbnails update when a drawing is added to a tab.
+In the right hand panel, a series of thumbnails are shown for every open sheet in Whyteboard. These thumbnails update when a drawing is added to a sheet.
 
 
 = History Replaying =
 
-You can go to the menu item History and select "History Viewer", or press Ctrl and H to bring up the history replaying functionality. The dialog will allow you to start, pause or stop a replay of the current tab's drawing. So, starting from the beginning of the drawing, the program will replay what you have drawn until the drawing ends, or the user presses "stop"
+You can go to the menu item History and select "History Viewer", or press Ctrl and H to bring up the history replaying functionality. The dialog will allow you to start, pause or stop a replay of the current sheet's drawing. So, starting from the beginning of the drawing, the program will replay what you have drawn until the drawing ends, or the user presses "stop"
