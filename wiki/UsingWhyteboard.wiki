@@ -32,7 +32,7 @@ To draw, first select your desired tool from the left-hand panel. A description 
  * Rectangle Select - Selects a region, which can be copied. Once a selection has been made, it can be copied, and then pasted as an image. If anything is drawn after a selection has been made, but not copied, then the selection is removed. 
 
 
-= Converting PDF, PostScript and SVG files =
+= Converting PDF, !PostScript and SVG files =
 
 When Whyteboard first starts, if your Operating System is Windows, it prompts for the location of the ImageMagick folder. This is usually in the _C:/Program Files/ImageMagick-`[version`]_ directory; a directory selector dialog will allow you to choose its location.
 
@@ -80,6 +80,6 @@ You can go to the menu item History and select "History Viewer", or press Ctrl a
 
 = Copy and Paste = 
 
-Using the "RectSelect" tool described above, a region can be selected to be copied and pasted as a bitmap. This can be pasted multiple times and then saved as a .wtbd file. The single image will be then saved to a temporary folder in your home directory, even if you pasted the image 20 times.
+Using the "!RectSelect" tool described above, a region can be selected to be copied and pasted as a bitmap. This can be pasted multiple times and then saved as a .wtbd file. The single image will be then saved to a temporary folder in your home directory, even if you pasted the image 20 times.
 
 *NOTE:* On Linux, the applications "Glipper", or "Parcellite" may interfere with the copy and pasting. This is noticeable in other applications such as the GIMP.
