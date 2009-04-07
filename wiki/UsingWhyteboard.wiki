@@ -29,7 +29,7 @@ To draw, first select your desired tool from the left-hand panel. A description 
 
   * Eyedropper - This will set the current drawing colour as the colour underneath the mouse click. Be careful, often you can set your colour to white (the background colour) and get the appearance that you're drawing nothing (since you're drawing white onto white)
 
- * Fill - Flood fills a region. For example, if nothing was drawn then the entire background would be filled. If a rectangle was drawn, then clicking inside of it would fill only the rectangle. Be careful filling in shapes you've drawn with the pen, as the slightest pixel "border" being missing can cause you to fill in an undesired area. 
+ * Rectangle Select - Selects a region, which can be copied. Once a selection has been made, it can be copied, and then pasted as an image. If anything is drawn after a selection has been made, but not copied, then the selection is removed. 
 
 
 = Converting PDF, PostScript and SVG files =
@@ -76,3 +76,10 @@ In the right hand panel, a series of thumbnails are shown for every open sheet i
 = History Replaying =
 
 You can go to the menu item History and select "History Viewer", or press Ctrl and H to bring up the history replaying functionality. The dialog will allow you to start, pause or stop a replay of the current sheet's drawing. So, starting from the beginning of the drawing, the program will replay what you have drawn until the drawing ends, or the user presses "stop"
+
+
+= Copy and Paste = 
+
+Using the "RectSelect" tool described above, a region can be selected to be copied and pasted as a bitmap. This can be pasted multiple times and then saved as a .wtbd file. The single image will be then saved to a temporary folder in your home directory, even if you pasted the image 20 times.
+
+*NOTE:* On Linux, the applications "Glipper", or "Parcellite" may interfere with the copy and pasting. This is noticeable in other applications such as the GIMP.
