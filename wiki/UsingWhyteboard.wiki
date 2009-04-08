@@ -32,6 +32,15 @@ To draw, first select your desired tool from the left-hand panel. A description 
  * Rectangle Select - Selects a region, which can be copied. Once a selection has been made, it can be copied, and then pasted as an image. If anything is drawn after a selection has been made, but not copied, then the selection is removed. 
 
 
+= Sheets =
+
+Whyteboard has a multi-document interface, in the form of tabs, referred to in Whtyeboard as "Sheets", as a physical whiteboard would have many sheets that can be changed between. 
+Each sheet has its individual drawing and its own undo and redo history. The sheets can be renamed by right clicking on a tab, and choosing "rename"
+
+http://img301.imageshack.us/img301/2220/rename.jpg
+
+
+
 = Converting PDF, !PostScript and SVG files =
 
 When Whyteboard first starts, if your Operating System is Windows, it prompts for the location of the ImageMagick folder. This is usually in the _C:/Program Files/ImageMagick-`[version`]_ directory; a directory selector dialog will allow you to choose its location.
@@ -70,7 +79,7 @@ Every sheet has its own undo and redo list. You currently cannot undo closing a 
 
 = Thumbnails =
 
-In the right hand panel, a series of thumbnails are shown for every open sheet in Whyteboard. These thumbnails update when a drawing is added to a sheet.
+In the right hand panel, a series of thumbnails are shown for every open sheet in Whyteboard. These thumbnails update when a drawing is added to a sheet, and are added and removed with the sheets.
 
 
 = History Replaying =
@@ -81,5 +90,7 @@ You can go to the menu item History and select "History Viewer", or press Ctrl a
 = Copy and Paste = 
 
 Using the "!RectSelect" tool described above, a region can be selected to be copied and pasted as a bitmap. This can be pasted multiple times and then saved as a .wtbd file. The single image will be then saved to a temporary folder in your home directory, even if you pasted the image 20 times.
+
+Copied images can also be pasted into a new sheet. This is useful for taking screenshots of your computer screen using the print screen key, 
 
 *NOTE:* On Linux, the applications "Glipper", or "Parcellite" may interfere with the copy and pasting. This is noticeable in other applications such as the GIMP.
