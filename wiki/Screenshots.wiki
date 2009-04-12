@@ -1,5 +1,5 @@
 #summary Screenshots of Whyteboard.
-#labels Screenshot
+#labels Screenshot,Featured
 
 = Screenshots =
 
