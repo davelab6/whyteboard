@@ -1,5 +1,5 @@
 #summary Try and provide a better method for sharing Whyteboard files with PDF references stored
-#labels Phase-Implementation,Featured
+#labels Phase-Implementation
 
 = Introduction =
 
