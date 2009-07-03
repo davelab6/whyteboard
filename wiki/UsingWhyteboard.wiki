@@ -55,7 +55,7 @@ The more pages inside a PDF, the longer it will take to convert and to refresh W
 
 When you save a Whyteboard file, it doesn't store the actual image data inside the application, but references to the path the images are located at. This is currently a problem in sharing .wtbd files, but an idea for improving this should work much better.
 
-When you load in .wtbd file, it may take a while to load as all the thumbnails need to be refreshed, which can take a few seconds.
+When you load in .wtbd file, it may take a while to load as all the thumbnails need to be refreshed, which can take a few seconds. It depends on how many sheets must be recreated and the complexity of each sheet (number of objects/notes)
 
 
 = Notes =
