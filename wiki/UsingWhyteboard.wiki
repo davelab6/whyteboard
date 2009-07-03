@@ -72,9 +72,9 @@ http://img23.imageshack.us/img23/9635/notesh.png
 http://img18.imageshack.us/img18/8665/notes2.png
 
 
-= Undo / Redo = 
+= Undo / Redo (and undo closing sheets) = 
 
-Every sheet has its own undo and redo list. You currently cannot undo closing a sheet
+Every sheet has its own undo and redo list. Whyteboard also retains the last *10* closed sheets in memory, so that you can undo closed sheets. When restoring a sheet everything comes back including its undo/redo list and sheet title.
 
 
 = Thumbnails =
@@ -94,3 +94,13 @@ Using the "!RectSelect" tool described above, a region can be selected to be cop
 Copied images can also be pasted into a new sheet. This is useful for taking screenshots of your computer screen using the print screen key, 
 
 *NOTE:* On Linux, the applications "Glipper", or "Parcellite" may interfere with the copy and pasting. This is noticeable in other applications such as the GIMP.
+
+
+
+= Updating the Application and Help Files = 
+
+Whyteboard comes in a number of formats: Python source distributed in .tar.gz files which can run on Linux, Windows and Mac, .exe files for Windows and .deb packages for Debian-based Linux systems. To support all these, Whyteboard can be updated from inside the program.
+
+From the help menu, select the "Update" menu item to check for a new version online. If there is a newer version found, you will be notified of the version number, file size and asked if you wish to update. Then, the appropriate file is downloaded and Whyteboard restarts with the new update applied. Before restarting, it asks if you wish to save your file if you have unsaved changes.
+
+The program also has a built-in help system. If using the stand-alone .exe file, then the help files are not bundled with the exe, but they can be downloaded from the internet via the program. Simply try to access the help (F1/Help->Contents) and if the help files are not found, you'll be asked if you want the program to fetch them.
