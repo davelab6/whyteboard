@@ -1,38 +1,36 @@
 #summary Screenshots of Whyteboard.
 #labels Screenshot,Featured
 
-note: some are from varying older versions. Sorry if they're a bit too big, I should resize them, and they're a bit poorly organised
+Screenshots have been updated for the latest version, 0.38.
 
 = Screenshots =
 
 
-http://img70.imageshack.us/img70/3128/screenshot1m.png
+http://img70.imageshack.us/img70/9716/screenshotu.png
+
 http://img21.imageshack.us/img21/8781/screenshotqos.png
+
 http://img412.imageshack.us/img412/5184/screenshotcrk.png
+
 ....running under Wine!
 
 
 
 ==Notes:==
 
-http://img6.imageshack.us/img6/219/screenshot1e.png
-http://img25.imageshack.us/img25/8933/92774620.png
-http://img18.imageshack.us/img18/8565/26042904.png
+http://img242.imageshack.us/img242/4879/screenshot2ne.png
+
+http://img97.imageshack.us/img97/4485/screenshot3g.png
 
 
 ==PDF annotating:==
 
-http://img16.imageshack.us/img16/7991/20873254nu0.jpg
-http://img4.imageshack.us/img4/7224/whyteboarddz2ye3.jpg 
-http://img19.imageshack.us/img19/3781/whyteboardxpclassic.png
+http://img204.imageshack.us/img204/2078/whyteboardbig.png
 
+http://img383.imageshack.us/img383/4553/screenshot4.png
 
-==Drawing:==
+http://img16.imageshack.us/img16/1435/screenshot5vl.png
 
-http://img19.imageshack.us/img19/6005/osx2.jpg
-http://img242.imageshack.us/img242/1230/whyteboardsi1.jpg
-http://img19.imageshack.us/img19/5460/16587489.jpg
-http://img407.imageshack.us/img407/9784/screenshot3.png
 
 
 ==Exported PNG from Whyteboard:==
