@@ -6,33 +6,47 @@ Screenshots have been updated for the latest version, 0.38.
 = Screenshots =
 
 
+
 http://img70.imageshack.us/img70/9716/screenshotu.png
 
-http://img21.imageshack.us/img21/8781/screenshotqos.png
+
+http://img383.imageshack.us/img383/9563/screenshot1d.png
+
 
 http://img412.imageshack.us/img412/5184/screenshotcrk.png
+
 
 ....running under Wine!
 
 
 
+
 ==Notes:==
 
+
 http://img242.imageshack.us/img242/4879/screenshot2ne.png
+
 
 http://img97.imageshack.us/img97/4485/screenshot3g.png
 
 
+
+
 ==PDF annotating:==
+
 
 http://img204.imageshack.us/img204/2078/whyteboardbig.png
 
+
 http://img383.imageshack.us/img383/4553/screenshot4.png
+
 
 http://img16.imageshack.us/img16/1435/screenshot5vl.png
 
 
 
+
 ==Exported PNG from Whyteboard:==
+
 
 http://img24.imageshack.us/img24/9466/starwarsf.png
