@@ -1,9 +1,12 @@
 #summary Screenshots of Whyteboard.
 #labels Screenshot,Featured
 
+
 Screenshots have been updated for the latest version, 0.38.
 
 = Screenshots =
+
+<wiki:toc />
 
 
 
@@ -50,3 +53,27 @@ http://img16.imageshack.us/img16/1435/screenshot5vl.png
 
 
 http://img24.imageshack.us/img24/9466/starwarsf.png
+
+
+
+
+==Different PDF Qualities===
+
+
+===Normal===
+
+
+http://img48.imageshack.us/img48/5103/normal.png
+
+
+
+===High===
+
+
+http://img251.imageshack.us/img251/7619/high.png
+
+
+===Highest===
+
+
+http://img48.imageshack.us/img48/516/highest.png
