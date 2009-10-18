@@ -1,12 +1,14 @@
 #summary Screenshots of Whyteboard.
 #labels Screenshot,Featured
 
+<wiki:toc />
 
-Screenshots have been updated for the latest version, 0.38.
+
+Screenshots have been updated for the latest version, 0.38.x (see: program title for exact version of each screenshot).
+
 
 = Screenshots =
 
-<wiki:toc />
 
 
 
@@ -48,12 +50,9 @@ http://img16.imageshack.us/img16/1435/screenshot5vl.png
 
 
 
+==Toolbox view: icons==
 
-==Exported PNG from Whyteboard:==
-
-
-http://img24.imageshack.us/img24/9466/starwarsf.png
-
+http://img19.imageshack.us/img19/6213/screenshot3fo.png
 
 
 
@@ -77,3 +76,14 @@ http://img251.imageshack.us/img251/7619/high.png
 
 
 http://img48.imageshack.us/img48/516/highest.png
+
+
+
+
+
+
+
+==Exported PNG from Whyteboard:==
+
+
+http://img24.imageshack.us/img24/9466/starwarsf.png
