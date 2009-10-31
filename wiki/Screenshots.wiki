@@ -20,9 +20,20 @@ Various functionality of the program is displayed here
 ==Rotating an image==
 
 
+[http://img215.imageshack.us/img215/9126/wbrotate.jpg http://img25.imageshack.us/img25/5540/wbrotatesmall.jpg]
+
+
 ==Preferences==
+
+[http://img255.imageshack.us/img255/8870/wbpref.png http://img255.imageshack.us/img255/2148/wbprefsmall.jpg]
+
 
 [http://img20.imageshack.us/img20/8895/wbpref2.png http://img443.imageshack.us/img443/2755/wbpref2small.jpg]
 
 
 [http://img88.imageshack.us/img88/2751/wbpref3.jpg http://img442.imageshack.us/img442/2083/wbpref3small.gif]
+
+
+==Updating==
+
+[http://img255.imageshack.us/img255/1066/wbupdate.jpg http://img25.imageshack.us/img25/3519/wbupdatesmall.jpg]
