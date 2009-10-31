@@ -1,9 +1,13 @@
 #summary Screenshots of Whyteboard.
 #labels Screenshot,Featured
 
+
 =Screenshots=
 
 Various functionality of the program is displayed here
+
+
+<wiki:toc max_depth="1" />
 
 
 ==Annotating a PDF==
@@ -37,3 +41,13 @@ Various functionality of the program is displayed here
 ==Updating==
 
 [http://img255.imageshack.us/img255/1066/wbupdate.jpg http://img25.imageshack.us/img25/3519/wbupdatesmall.jpg]
+
+
+==Resizing the canvas==
+
+[http://img527.imageshack.us/img527/6012/resizep.png http://img3.imageshack.us/img3/9578/resizesmall.png]
+
+
+[http://img527.imageshack.us/img527/7774/resize2small.png http://img97.imageshack.us/img97/8936/resize2.png]
+
+[http://img265.imageshack.us/img265/9743/resize3small.png http://img3.imageshack.us/img3/3774/resize3.png]
