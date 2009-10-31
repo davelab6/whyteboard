@@ -7,7 +7,7 @@
 Various functionality of the program is displayed here
 
 
-<wiki:toc max_depth="1" />
+<wiki:toc />
 
 
 ==Annotating a PDF==
