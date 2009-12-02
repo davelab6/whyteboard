@@ -23,7 +23,7 @@ Various functionality of the program is displayed here
 
 ==Media Tool==
 
-[http://img138.imageshack.us/img138/5092/screenshot29.png http://img134.imageshack.us/img134/9123/screenshot29mall.png
+[http://img138.imageshack.us/img138/5092/screenshot29.png http://img134.imageshack.us/img134/9123/screenshot29mall.png]
 
 
 ==Rotating an image==
