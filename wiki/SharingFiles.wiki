@@ -21,3 +21,7 @@ In the event of attempting to load in a file that has duplicate file-name refere
 This will aid with the sharing of Whyteboard data files without having to have any reference to a PDF besides its filename, which removes any copyright or legal issues. It is important not to expose the user's direct path in a save file, for security reasons.
 
 The massive assumption here is that PDFs shared are named in a manner that they can be easily identified, however some organisation's documents, e.g. the ACM follow a naming convention.
+
+= Implementation =
+
+Has been completed as of 28/12/2009, version 0.39.3.
