@@ -4,7 +4,7 @@
 
 =Screenshots=
 
-Various functionality of the program is displayed here
+Various functionality of the program is displayed here. Click on the smaller picture to view the picture in full-size.
 
 
 <wiki:toc />
