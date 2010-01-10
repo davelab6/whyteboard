@@ -1,6 +1,9 @@
 #summary Describes how to use Whyteboard
 #labels Featured,Phase-Support
 
+=NOTE=
+This is now an old document, the help files are in HTML form and can be accessed through the program. 
+
 <wiki:toc />
 
 = Introduction =
