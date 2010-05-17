@@ -9,6 +9,10 @@ Various functionality of the program is displayed here. Click on the smaller pic
 
 <wiki:toc />
 
+==On GTK==
+
+[http://img39.imageshack.us/img39/6717/92669482.png http://img186.imageshack.us/img186/5591/smallx.png]
+
 
 ==Annotating a PDF==
 
