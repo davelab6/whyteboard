@@ -1,0 +1,10 @@
+#summary Code cleanup proposal
+
+= Introduction =
+
+The current codebase is becoming a large mess. The GUI performs too many operations on the canvas directly as do other classes. This needs to be cleaned up.
+
+
+= Details =
+
+Use pubsub to reduce module dependencies - no longer need to call self.gui.thumnbs.text[n].do_something()
