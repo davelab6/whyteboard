@@ -1,0 +1,29 @@
+#summary Installation instructions for various operating systems
+
+= Introduction =
+This page describes how to install Whyteboard on Windows and Linux (Ubuntu)
+
+
+= Details =
+
+
+Whyteboard has a few essential dependencies that must be installed.
+
+ # [http://python.org/download/ Python] 2.5, 2.6 or 2.7  -- 
+ # [http://www.wxpython.org/download.php wxPython] 2.8.9.0 (at minimum) --
+
+the latest versions are always recommended
+
+Please note that the program *does NOT* work on Python 3+
+
+Optional:
+ * [http://www.imagemagick.net ImageMagick] --  (to import/export PDF/PS files)
+
+
+
+= Windows =
+First download the Python exe files, and install them.
+Next, grab the wxPython install files. Please note that you must download the correct wxPython version for the Python version you have installed (2.5, 2.6 or 2.7) and whether you are running Windows 32 or 64 bit.
+
+To import PDF files you will need Imagemagick. 
+You may also need [http://pages.cs.wisc.edu/~ghost/ GhostScript] alongside ImageMagick.
