@@ -1,0 +1,9 @@
+#summary Describes how to retrieve the latest development versions
+
+Whyteboard uses the [http://bazaar.org Bazaar] version control system to publish code updates.
+
+You can fetch the latest development code, help files and translations by first installing Bazaar (see the link above for details), and by executing this command at the command line:
+
+`bzr pull lp:whyteboard`
+
+Windows users using Bazaar explorer can check out the code using the GUI and using `lp:whyteboard` as the branch location.
