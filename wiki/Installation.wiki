@@ -1,6 +1,8 @@
 #summary Installation instructions for various operating systems
 #labels Featured
 
+<wiki:toc max_depth="2" />
+
 = Installation =
 
 
@@ -35,7 +37,7 @@ You may also need [http://pages.cs.wisc.edu/~ghost/ GhostScript] alongside Image
 
 
 
-== Linux ==
+= Linux =
 
 You most likely have Python installed on your machine. If not, download and install it.
 wxPython can be obtained via aptitude on Ubuntu machines -- follow instructions over at the [http://wiki.wxpython.org/InstallingOnUbuntuOrDebian wxPython Wiki].
