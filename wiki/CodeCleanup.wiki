@@ -8,3 +8,7 @@ The current codebase is becoming a large mess. The GUI performs too many operati
 = Details =
 
 Use pubsub to reduce module dependencies - no longer need to call self.gui.thumnbs.text[n].do_something()
+
+Ideally the gui should intercept wxPython Events and delegate to the appropriate class to handle the event, passing in any information required from the event. This leads to many small one-line methods in the GUI, and has no logic. This means the system can be independently tested from the GUI
+
+The hard part is coming up with good names, and creating modules to handle these delegations. The GUI itself shouldn't have to store current tab counts etc, and no classes should have to do method calls "to" the GUI to perform non-GUI logic
