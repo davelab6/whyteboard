@@ -2,7 +2,7 @@
 #labels Featured,Phase-Support
 
 =NOTE=
-This is now an old document, the help files are in HTML form and can be accessed through the program. 
+This is now an old and outdated document, [http://packages.python.org/Whyteboard/ the help files are in HTML form] and can be read online or accessed through the program. 
 
 <wiki:toc />
 
