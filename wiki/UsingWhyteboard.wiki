@@ -24,7 +24,7 @@ To draw, first select your desired tool from the left-hand panel. A description 
 
   * Circle - The initial mouse click sets the position for the centre of the circle, and dragging the mouse out will increase its radius; dragging the mouse in decreases it.
 
-  * Text - Clicking will pop up a text input dialog which you can enter text into, and select your font. Text can be multi-lined and as long as you want; Whyteboard will update its scrollbars's length/height if the text is longer/wider than Whyteboard's current size.
+  * Text - Clicking will pop up a text input dialog which you can enter text into, and select your font. Text can be multi-lined and as long as you want; Whyteboard will update its scrollbars' length/height if the text is longer/wider than Whyteboard's current size.
 
   * Note - Similar to text, yet is displayed with a light yellow background, to mimick a sticky/"post-it" note. More details on notes are below.
 
