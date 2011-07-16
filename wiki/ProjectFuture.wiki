@@ -1,0 +1,7 @@
+#Describes where Whyteboard is heading
+
+= Introduction =
+
+As of this time of writing, there has not been a release of the program in just under a year. In that time, I've received many bugs reports, which have actually been fixed, just a new version hasn't been fully ready for release.
+
+I aim to get a new version out by the start of September, that will fix over 15 bugs or so [https://bugs.launchpad.net/whyteboard/+bugs?field.searchtext=&orderby=status&search=Search&field.status%3Alist=NEW&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.assignee=&field.bug_reporter=&field.omit_dupes=on&field.has_patch=&field.has_no_package= bug list]
