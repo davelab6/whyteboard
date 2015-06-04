@@ -1,0 +1,21 @@
+# Introduction #
+
+When a PDF is loaded into Whyteboard, its text can be a bit small and hard to read. This proposal talks about a solution.
+
+# Details #
+
+This issue can be solved by calling ImageMagick's convert function with extra processing options to increase the zoom and detail density; this has the side-effect of taking much longer to process the conversion, compared to "standard".
+
+This would create a higher quality PNG file, which would be able to be zoomed in on using wxPython's image functions.
+
+The alternative would be to convert as normal, but call convert when the user zooms in. This has some bad side-effects, however:
+
+  * User zooms in once: convert is called, screen redraws
+  * User zooms in again, convert called again, screen redrawn
+  * user zooms out, convert called...
+
+etc etc. Perhaps the best idea would be to create a higher quality PNG file in the first pace.
+
+As it is, a PDF is converted once per PDF saved into a Whyteboard file, when the .wtbd file is loaded the temporary PNG files from the conversion are restored.
+
+By creating higher quality temporary PNGs in the first place, I can probably add in image zooming using wxPython's API which should perform much better than repeatedly calling IM's convert.

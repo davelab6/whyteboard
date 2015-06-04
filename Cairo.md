@@ -1,0 +1,21 @@
+# Introduction #
+
+A recent discovery has been made, late into the project's lifecycle as a university project, of Poppler, a PDF rendering engine. There is a Python binding available for this, which, together with Cairo could bring significant advantages, and changes to Whyteboard.
+
+
+# Details #
+
+
+## Python Poppler ##
+
+[Python Poppler](https://code.launchpad.net/poppler-python) can load a PDF file quickly, which would be highly advantageous, as currently Whyteboard must use ImageMagick which takes time to load the image, creates temporary PNG files, takes longer to load with PDFs with many pages, doesn't produce too high quality output (although it can - at a much increased loading time..)
+
+Using Python Poppler would be great here. The downside is it would effectively split the implementation of Whyteboard, as the install all the requires libraries and other dependencies is probably a nightmare. I'm not sure if it could be packaged into an .exe, too
+
+
+## Cairo ##
+
+Cairdo is a vector-based graphics library. I've just experimented with basic drawing using wxPython, Cairo and a PDF loaded through Python Poppler, and it seems neat so far. Cairo has a nice ability to ZOOM into the canvas! Perfect for viewing PDFs
+
+However...I'm not sure about mixing wxpython drawing and cairo. Would have to have a lot of code for if blah blah not cairo: else do other thing
+Also, I'm not sure if cairo supports all the drawing functionality

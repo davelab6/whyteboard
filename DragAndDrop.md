@@ -1,0 +1,11 @@
+# Introduction #
+
+Currently, Whyteboard can open files from the command line, when the program is starting, or via the Open file menu. With support for drag and drop, users will be able to drag image files/PDF/Postscript files and even .wtbd (Whyteboard's filetype) into the application
+
+
+# Details #
+
+It shouldn't be too difficult, I haven't looked into the specifics for enabling a wx Panel for D'n'D support, but it should be a matter of passing the direct path to the file that was dragged to the "open files" method inside the GUI class, and that should handle the rest, such as loading in the .wtbd or converting a PDF
+
+# Notes #
+Now done, introduced in version 0.35.7

@@ -1,0 +1,38 @@
+# Introduction #
+
+This proposal specifies the concept of adding text notes to Whyteboard, and the design / implementation outline.
+
+
+# Details #
+
+Adding in "post-it" / "sticky" notes will give Whyteboard a feature suited for academic annotation, where notes added to a tab will be viewable in a tree outline in a side panel.
+
+In the side panel will be the list of all notes associated with the currently viewed tab. Each note's branch in the tree view will be clickable, bringing up the text input box to allow the modification of the text. This is a simpler implementation and usability model than selecting the note object inside the drawing frame.
+
+The View menu will have an additional item for toggling the visibility of the notes, thus the notes can be used to remind the user and then hidden at a later time.
+
+The feature provides the following benefits:
+
+  * An outline of all text annotations added to a drawing
+  * Easier sharing of ideas between people
+  * Can be used to represent Classes for drawing UML diagrams
+  * Different from standard text, in that the note can draw attention to an additional annotation that was missing from the slide, or a point/clarification that a lecturer is expanding upon for a particular slide.
+
+e.g. ![http://www.cluttercontrolfreak.com/wp/wp-content/uploads/2007/09/sticky_note.jpg](http://www.cluttercontrolfreak.com/wp/wp-content/uploads/2007/09/sticky_note.jpg)
+
+
+# UI Details #
+
+**Where the thumbnails panel is now, will need to be split into a two-tab side panel, allowing the switching between thumbs/notes.** Can toggle the entire panel on/off, or turn off thumbs/notes individually
+
+# When? #
+Get 80% completion _at worst_ by Thursday, 12th March.
+
+## Current progress: ##
+
+March 5th:
+![http://img17.imageshack.us/img17/9311/20860436.png](http://img17.imageshack.us/img17/9311/20860436.png)
+
+March 8th:
+![http://img17.imageshack.us/img17/3913/61509359.png](http://img17.imageshack.us/img17/3913/61509359.png)
+![http://img15.imageshack.us/img15/9214/98036259.png](http://img15.imageshack.us/img15/9214/98036259.png)

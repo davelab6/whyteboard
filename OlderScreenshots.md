@@ -1,0 +1,86 @@
+
+
+
+Screenshots have been updated for the latest version, 0.38.x (see: program title for exact version of each screenshot).
+
+
+# Screenshots #
+
+
+
+
+![http://img70.imageshack.us/img70/9716/screenshotu.png](http://img70.imageshack.us/img70/9716/screenshotu.png)
+
+
+![http://img383.imageshack.us/img383/9563/screenshot1d.png](http://img383.imageshack.us/img383/9563/screenshot1d.png)
+
+
+![http://img412.imageshack.us/img412/5184/screenshotcrk.png](http://img412.imageshack.us/img412/5184/screenshotcrk.png)
+
+
+....running under Wine!
+
+
+
+
+## Notes: ##
+
+
+![http://img242.imageshack.us/img242/4879/screenshot2ne.png](http://img242.imageshack.us/img242/4879/screenshot2ne.png)
+
+
+![http://img97.imageshack.us/img97/4485/screenshot3g.png](http://img97.imageshack.us/img97/4485/screenshot3g.png)
+
+
+
+
+## PDF annotating: ##
+
+
+![http://img204.imageshack.us/img204/2078/whyteboardbig.png](http://img204.imageshack.us/img204/2078/whyteboardbig.png)
+
+
+![http://img383.imageshack.us/img383/4553/screenshot4.png](http://img383.imageshack.us/img383/4553/screenshot4.png)
+
+
+![http://img16.imageshack.us/img16/1435/screenshot5vl.png](http://img16.imageshack.us/img16/1435/screenshot5vl.png)
+
+
+
+## Toolbox view: icons ##
+
+![http://img19.imageshack.us/img19/6213/screenshot3fo.png](http://img19.imageshack.us/img19/6213/screenshot3fo.png)
+
+
+
+## Different PDF Qualities ##
+
+
+### Normal ###
+
+
+![http://img48.imageshack.us/img48/5103/normal.png](http://img48.imageshack.us/img48/5103/normal.png)
+
+
+
+### High ###
+
+
+![http://img251.imageshack.us/img251/7619/high.png](http://img251.imageshack.us/img251/7619/high.png)
+
+
+### Highest ###
+
+
+![http://img48.imageshack.us/img48/516/highest.png](http://img48.imageshack.us/img48/516/highest.png)
+
+
+
+
+
+
+
+## Exported PNG from Whyteboard: ##
+
+
+![http://img24.imageshack.us/img24/9466/starwarsf.png](http://img24.imageshack.us/img24/9466/starwarsf.png)

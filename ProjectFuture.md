@@ -1,0 +1,19 @@
+# Whyteboard Future #
+### As of November 2012 ###
+As of this time of writing, there has not been a release of the program in just over two years. In that time, I've received many bugs reports, which have actually been fixed, just a new version hasn't been fully ready for release.
+
+I want to get a 1.0 release out soon. I'm eager to get these bug fixes and new features released. I'm a bit uncertain of the code quality as much of my development has been on Windows and I'm running like ubuntu 8.04 or something quite old by now. There is a lot of Linux testing to be done.
+
+Another improvement is a more native look on Windows 7, the application will now use the native rendering for more GUI stuff.
+
+
+My build scripts for Windows are working great - I can generate installer and a ready-to-release .zip file containing the executable and all program resources.
+
+I may just make a Windows-only release for the time being.
+
+
+I've recently upgraded the project to use wxPython 2.9 and am making use of some cool new features, like a keyboard shortcut editor.
+
+
+## Bugs Fixed ##
+[bug list](https://bugs.launchpad.net/whyteboard/+bugs?field.searchtext=&orderby=status&search=Search&field.status%3Alist=NEW&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=FIXCOMMITTED&field.assignee=&field.bug_reporter=&field.omit_dupes=on&field.has_patch=&field.has_no_package=)

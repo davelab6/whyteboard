@@ -1,0 +1,106 @@
+# NOTE #
+This is now an old and outdated document, [the help files are in HTML format](http://packages.python.org/Whyteboard/) and can be read online or accessed through the program.
+
+
+
+# Introduction #
+
+This document will serve as a usage manual for Whyteboard.
+
+# Drawing #
+
+To draw, first select your desired tool from the left-hand panel. A description of the tools is as follows:
+
+  * Pen: A free-style pen. "Ink" will appear wherever you drag your mouse while holding down the left button.
+
+  * Rectangle: A transparent rectangle. Clicking the mouse will set the initial starting point for the rectangle; holding the mouse button down and dragging the mouse will resize the rectangle in the direction the mouse is going. So, if you drag the mouse downwards and to the left, you will extend the rectangle in that direction. Dragging it to the top right would make the rectangle smaller until you reach the original location you clicked, and then the rectangle would increase in size to the top right.
+
+  * Line - as above, but with a straight line.
+
+  * Ellipse - A "squashed" rectangle, creating an oval. This behaves exactly as drawing a rectangle.
+
+  * Circle - The initial mouse click sets the position for the centre of the circle, and dragging the mouse out will increase its radius; dragging the mouse in decreases it.
+
+  * Text - Clicking will pop up a text input dialog which you can enter text into, and select your font. Text can be multi-lined and as long as you want; Whyteboard will update its scrollbars' length/height if the text is longer/wider than Whyteboard's current size.
+
+  * Note - Similar to text, yet is displayed with a light yellow background, to mimick a sticky/"post-it" note. More details on notes are below.
+
+  * Rounded Rectangle - As a rectangle, but with rounded edges.
+
+  * Eyedropper - This will set the current drawing colour as the colour underneath the mouse click. Be careful, often you can set your colour to white (the background colour) and get the appearance that you're drawing nothing (since you're drawing white onto white)
+
+  * Rectangle Select - Selects a region, which can be copied. Once a selection has been made, it can be copied, and then pasted as an image. If anything is drawn after a selection has been made, but not copied, then the selection is removed.
+
+
+# Sheets #
+
+Whyteboard has a multi-document interface, in the form of tabs, referred to in Whtyeboard as "Sheets", as a physical whiteboard would have many sheets that can be changed between.
+Each sheet has its individual drawing and its own undo and redo history. The sheets can be renamed by right clicking on a tab, and choosing "rename"
+
+![http://img301.imageshack.us/img301/2220/rename.jpg](http://img301.imageshack.us/img301/2220/rename.jpg)
+
+
+
+# Converting PDF, PostScript and SVG files #
+
+When Whyteboard first starts, if your Operating System is Windows, it prompts for the location of the ImageMagick folder. This is usually in the _C:/Program Files/ImageMagick-`[version`]_ directory; a directory selector dialog will allow you to choose its location.
+
+Once found, Whyteboard saves the location so you don't have to specify it all the time. When you load in a PDF, the file is passed off to the convert application in the background, and you must wait until the operation finishes.
+
+The trouble here is that there is no way to gauge the progress of the convert, as the applcation doesn't return any information about its progress, nor can the PDF be queried to determine how many pages it has.
+The more pages inside a PDF, the longer it will take to convert and to refresh Whyteboard's thumbnails for every sheet.
+
+
+# Saving and loading Whyteboard files #
+
+When you save a Whyteboard file, it doesn't store the actual image data inside the application, but references to the path the images are located at. This is currently a problem in sharing .wtbd files, but an idea for improving this should work much better.
+
+When you load in .wtbd file, it may take a while to load as all the thumbnails need to be refreshed, which can take a few seconds. It depends on how many sheets must be recreated and the complexity of each sheet (number of objects/notes)
+
+
+# Notes #
+
+When you type in a note, it appears in the "notes" tab on the right-hand panel. This gives a tree overview of every sheet open in Whyteboard, along with any associated notes for that sheet. A note in the tree view can be double clicked upon to bring up the text input screen to edit the notes' text. (demonstrated in the screenshot below)
+
+**Before:**
+
+![http://img23.imageshack.us/img23/9635/notesh.png](http://img23.imageshack.us/img23/9635/notesh.png)
+
+
+**After editing:**
+
+![http://img18.imageshack.us/img18/8665/notes2.png](http://img18.imageshack.us/img18/8665/notes2.png)
+
+
+# Undo / Redo (and undo closing sheets) #
+
+Every sheet has its own undo and redo list. Whyteboard also retains the last **10** closed sheets in memory, so that you can undo closed sheets. When restoring a sheet everything comes back including its undo/redo list and sheet title.
+
+
+# Thumbnails #
+
+In the right hand panel, a series of thumbnails are shown for every open sheet in Whyteboard. These thumbnails update when a drawing is added to a sheet, and are added and removed with the sheets.
+
+
+# History Replaying #
+
+You can go to the menu item History and select "History Viewer", or press Ctrl and H to bring up the history replaying functionality. The dialog will allow you to start, pause or stop a replay of the current sheet's drawing. So, starting from the beginning of the drawing, the program will replay what you have drawn until the drawing ends, or the user presses "stop"
+
+
+# Copy and Paste #
+
+Using the "RectSelect" tool described above, a region can be selected to be copied and pasted as a bitmap. This can be pasted multiple times and then saved as a .wtbd file. The single image will be then saved to a temporary folder in your home directory, even if you pasted the image 20 times.
+
+Copied images can also be pasted into a new sheet. This is useful for taking screenshots of your computer screen using the print screen key,
+
+**NOTE:** On Linux, the applications "Glipper", or "Parcellite" may interfere with the copy and pasting. This is noticeable in other applications such as the GIMP.
+
+
+
+# Updating the Application and Help Files #
+
+Whyteboard comes in a number of formats: Python source distributed in .tar.gz files which can run on Linux, Windows and Mac, .exe files for Windows and .deb packages for Debian-based Linux systems. To support all these, Whyteboard can be updated from inside the program.
+
+From the help menu, select the "Update" menu item to check for a new version online. If there is a newer version found, you will be notified of the version number, file size and asked if you wish to update. Then, the appropriate file is downloaded and Whyteboard restarts with the new update applied. Before restarting, it asks if you wish to save your file if you have unsaved changes.
+
+The program also has a built-in help system. If using the stand-alone .exe file, then the help files are not bundled with the exe, but they can be downloaded from the internet via the program. Simply try to access the help (F1/Help->Contents) and if the help files are not found, you'll be asked if you want the program to fetch them.
